@@ -8,6 +8,7 @@ import PassionSpinner from "./components/passionspinner/PassionSpinner";
 
 import Login from "./components/login/Login";
 import Signup from "./components/signup/Signup";
+import DataSlice from "./components/dataslice/DataSlice";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route exact path="/passions">
                         <PassionSpinner size={300} />
                     </Route>
+                    <Route path="/datas" component={DataSlice}/>
                 </Switch>
             </BrowserRouter>
         </div>

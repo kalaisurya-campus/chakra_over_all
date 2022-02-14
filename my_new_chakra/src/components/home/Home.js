@@ -15,7 +15,7 @@ import {
     DiCss3,
     DiAndroid,
 } from "react-icons/di";
-
+import DataSlice from "../dataslice/DataSlice";
 
 function Home(props) {
     const usedata = useHistory();
@@ -75,7 +75,7 @@ function Home(props) {
             </div>
             <div className="experience mt-5 mb-3">
                 <div className="box1">
-                    0+ <br />
+                    4+ Month<br />
                     Experience
                 </div>
                 <div className="box2">
@@ -104,6 +104,10 @@ function Home(props) {
                     <Icon w="44" h="44" as={DiAndroid} />
                     <p className="reacts mt-4">React Chakra</p>
                 </div>
+            </div>
+
+            <div className="datas_introductions mt-5 mb-5">
+                <DataSlice />
             </div>
             <div>
                 <NavLink to="/signup">signup</NavLink>
