@@ -34,7 +34,7 @@ function Home(props) {
                 <div className="left_inside">
                     <h1 className="hi">Hi, I Am</h1>
                     <h1 className="kalaisurya">kalaisurya</h1>
-                    <p className="react">React Developer Fresher's</p>
+                    <p className="react">React Developer Fresher</p>
                     <button className="read mt-3">Read More...</button>
                 </div>
                 <div className="right_inside">

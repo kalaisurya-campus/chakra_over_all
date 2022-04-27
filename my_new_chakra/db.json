@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id":1,
+            "name":"kalaisurya",
+            "email":"kalaimca685@gmail.com",
+            "phoneno":"8778377119",
+            "location":"krishnagiri"
+    },
+    {
+      "id":2,
+      "name":"Nazriya",
+      "email":"Nazriya@gmail.com",
+      "phoneno":"9578754330",
+      "location":"Bargur"
+
+  },
+  {
+      "id":3,
+      "name":"Roman",
+      "email":"Roman@gmail.com",
+      "phoneno":"6369330231",
+      "location":"Mathur"
+
+  }
+  ]
+  
+}
